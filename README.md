@@ -1,3 +1,3 @@
 # Readme
 
-If you are deploying this sample to azure as custom container, enable home storage first since it will write to /home
+This demo integrates Application Insights custom events when receiving SIGTERM signals
