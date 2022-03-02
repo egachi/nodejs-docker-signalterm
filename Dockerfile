@@ -1,4 +1,5 @@
 FROM node:12.14.1-stretch-slim
+ENV APPINSIGHTS_INSTRUMENTATIONKEY="<instrumentation_key>"
 WORKDIR /code
 ADD package.json .
 RUN npm install
